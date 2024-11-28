@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(-166.499deg, #840AEE 0%, #0C1C31 100%);
+  min-height: 100vh;
+}
+
+.header{
+  padding-block: 40px 30px;
+}
+
+.barra-de-pesquisa{
+  background: rgba(26, 25, 71, 0.2);
+  border-radius: 12px;
+  display: flex;
+  margin-bottom: 40px;
+  box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.4);
+  padding: 5px;
+}
+
+.barra-de-pesquisa input:focus{
+  outline: none;
+}
+
+.barra-de-pesquisa input::placeholder{
+  font-family: "Inter" Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #340A66;
+}
+.barra-de-pesquisa button:focus{
+  outline: 1.5px solid #FFF;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+
+.barra-de-pesquisa input, .barra-de-pesquisa button{
+  background: none;
+  border: none;
+}
+
+.imagem-anuncio img{
+  object-fit: cover;
+  width: 330px;
+  max-height: 210px;
+  border-radius: 12px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.botoes{
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.produtos.botao{
+  background: linear-gradient(180deg, #FF8800 0%, #FFAE00 100%);
+
+}
+.anunciar.botao{
+  background: linear-gradient(180deg, #81F80B 0%, #4C9207 100%);
+}
+
+

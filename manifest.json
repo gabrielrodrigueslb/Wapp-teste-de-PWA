@@ -1,0 +1,35 @@
+{
+  "name": "WAPP",
+  "short_name": "WAPP",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#840AEE",
+  "theme_color": "#840AEE",
+  "icons": [
+    {
+      "src": "./imgs/wapp-icone.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./imgs/wapp-icone-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+  {
+    "src": "./imgs/screenshot-mobile.png",
+    "type": "image/png",
+    "sizes": "390x780"
+  },
+  {
+    "src": "./imgs/screenshot-wide.png",
+    "type": "image/png",
+    "sizes": "1561x910",
+    "form_factor": "wide"
+  }
+]
+
+
+}
